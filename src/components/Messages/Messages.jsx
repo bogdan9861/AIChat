@@ -66,7 +66,7 @@ export const Messages = () => {
 
                 </ul>
                 <form className='form' onSubmit={(e) => getResurse(e)}>
-                    <input className='input' type="text" placeholder='ask your quastion' value={message} onChange={(e) => { setMessage(e.target.value) }} />
+                    <input className='input' type="text" placeholder='ask your question 'value={message} onChange={(e) => { setMessage(e.target.value) }} />
                 </form>
             </div>
         </div>
